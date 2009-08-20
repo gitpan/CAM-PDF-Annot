@@ -4,7 +4,11 @@ use 5.010000;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
+
+# Changelog
+# 0.02 - No change, just world writables PAUSE problem
+# 0.01 - Release
 
 use base qw(CAM::PDF);
 use Data::Dumper;
