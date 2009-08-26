@@ -8,5 +8,6 @@ WriteMakefile(
     PREREQ_PM         => {}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/CAM/PDF/Annot.pm', # retrieve abstract from module
-       AUTHOR         => 'A. U. Thor <donatoaz@gmail.com>') : ()),
+       AUTHOR         => 'DONATOAZ <donatoaz@gmail.com>') : ()),
+	clean => {FILES => 't/merged_pdf.pdf t/merged_multi_pdf.pdf'},
 );
