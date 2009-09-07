@@ -4,9 +4,10 @@ use 5.010000;
 use strict;
 use warnings;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 # Changelog
+# 0.06 - update on META.yml to require CAM::PDF
 # 0.02 to 0.05 - World writables problem in PAUSE
 # 0.01 - Release
 
