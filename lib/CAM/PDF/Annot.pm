@@ -4,7 +4,7 @@ use 5.010000;
 use strict;
 use warnings;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 # Changelog
 # 0.06 - update on META.yml to require CAM::PDF
@@ -54,12 +54,12 @@ Constructor method, same as C<CAM::PDF>.
 
 =cut
 
-sub new {
-	my $class = shift;
-    my $self = $class->SUPER::new( @_ );
-
-    bless $self, $class;
-}
+#sub new {
+#	my $class = shift;
+#    my $self = $class->SUPER::new( @_ );
+#
+#    bless $self, $class;
+#}
 
 =item $doc->appendAnnotation($page, $doc, $annotRef, $refKeys) *NEW*
 

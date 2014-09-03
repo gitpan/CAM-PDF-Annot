@@ -1,13 +1,25 @@
---- #YAML:1.0
-name:                CAM-PDF-Annot
-version:             0.06
-abstract:            Perl extension for appending annotations on PDFs
-license:             ~
-author:              
-    - DONATOAZ <donatoaz@gmail.com>
-generated_by:        ExtUtils::MakeMaker version 6.42
-distribution_type:   module
-requires:     
+---
+abstract: 'Perl extension for appending annotations on PDFs'
+author:
+  - 'DONATOAZ <donatoaz@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 1
+generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142060'
+license: perl
 meta-spec:
-    url:     http://module-build.sourceforge.net/META-spec-v1.3.html
-    version: 1.3
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: CAM-PDF-Annot
+no_index:
+  directory:
+    - t
+    - inc
+requires:
+  CAM::PDF: '0'
+  Test::More: '0'
+resources:
+  repository: https://github.com/szabgab/CAM-PDF-Annot.git
+version: '0.07'
