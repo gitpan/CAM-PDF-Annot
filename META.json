@@ -32,8 +32,13 @@
       },
       "runtime" : {
          "requires" : {
-            "CAM::PDF" : "0",
-            "Test::More" : "0"
+            "CAM::PDF" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0",
+            "YAML::Tiny" : "0"
          }
       }
    },
@@ -45,5 +50,5 @@
          "web" : "https://github.com/szabgab/CAM-PDF-Annot"
       }
    },
-   "version" : "0.08"
+   "version" : "0.09"
 }

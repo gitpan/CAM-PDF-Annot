@@ -4,6 +4,8 @@ author:
   - 'DONATOAZ <donatoaz@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: '0'
+  Test::More: '0'
+  YAML::Tiny: '0'
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 1
@@ -19,7 +21,6 @@ no_index:
     - inc
 requires:
   CAM::PDF: '0'
-  Test::More: '0'
 resources:
   repository: https://github.com/szabgab/CAM-PDF-Annot.git
-version: '0.08'
+version: '0.09'
